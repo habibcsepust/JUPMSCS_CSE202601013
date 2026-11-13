@@ -1,0 +1,75 @@
+Chapter 2
+Background and Research Review
+2.1 Literature Review
+
+The management of accommodation of a large number of university students involves a number of activities, including the maintenance of student information, processing of hall applications, allocation of rooms and seats, handling of complaints, and monitoring of administrative activities. In many universities this can become difficult to manage through the manual nature of the activities. Many webbased hostel and residential management systems have therefore been created so that accommodation management can be organised easily.
+
+Wong and Mahdin (2022) developed an Online Hall Management System which included student management, hall applications, room allocation and complaint management. Their study demonstrated how a web-based system could support the core activities of hall administration. The proposed University Hall Management System builds upon similar ideas but incorporates additional functions such as application approval, room and seat management, dashboards and email communication into the same system.
+
+Zamri and Mohd Zaki (2023) developed a Residential Booking System which focused on student information, room availability, booking, and room allotment. Their work highlighted the value of a digital system for managing accommodation and room allocation. Building upon this concept, our system links the hall application process with admin review, approval or rejection, application status tracking, and room allocation.
+
+An Online Damage Complaint Management System for university accommodation has been
+proposed by Dahri and Mohd Yusof (2024). The main aim of this system is to make it easier. In our system, complaint management is incorporated as one part of the overall hall-management process. This enables complaint information to be handled in conjunction with student, hall, room and administrative information.
+
+Muniandy and Zainal (2025) developed RCARS, a Residential College Accommodation Rental System which covered accommodation applications, application status, room availability, room allocation and reporting. These functions are closely related to the accommodation process of our proposed system. However, our system incorporates them with student and admin dashboards, role-based access, complaint management, room and seat management, and email notification.
+
+Yusof et al. (2026) proposed StaySmart, a web-based hostel management system which covered hostel applications, room assignment, occupancy monitoring, complaints, and role-based access. This study gives an up-to-date example of how various activities around a hostel can be managed through a web interface. Our research follows a similar route, however we look specifically at managing administration within a university hall including student management,application processes, approval and room/seat allocation.
+
+2.2 Research Gap
+The The studies reviewed have covered a variety of areas within hostel/accommodation management. The systems differ in relation to the main areas they cover. Some are primarily for student application and room allocation whilst others are for complaint handling or  ccommodation booking.Although these systems address different management needs, there is still room for improvement by bringing these activities together and introducing simple AI-based features. Based on the review, the following gaps have been identified and addressed in our proposed university hall management system.
+Identified Gap	How Our System Addresses It
+1. Different activities are handled separately – Existing studies often focus on specific areas of hostel management rather than managing all activities together.	Centralized Management: Student, Hall, Room, Application, and Complaint Management are handled within the same system.
+2. Application processing is not always covered as a complete workflow – In some systems, the application process does not include all the necessary steps.	Full Application Process: Students apply, administrators approve or deny and students can check application status.
+
+3. Room management and allocation need better integration – Managing room information and seat availability separately can make allocation difficult.	Room and Seat Management: Rooms and seats are recorded in the system. The system knows how many seats are taken and available when allocating seats.
+4. Students and administrators have different requirements: Both user groups need different access levels and functions.	Role-Based Access: Separate access permissions and functions are provided for Admin and Student users.
+5. Easy access to housing information. Students may want to get in touch with administrators to keep up to date with their application and housing.	Student Dashboard: Students can easily
+see their application status, hall information and room and seat allocation
+through their dashboard.
+6. Complaint handling can be treated as a separate activity – Complaint management is not always integrated with other hall management activities.	Complaint & Maintenance Management: Students can submit complaints, and administrators can manage and monitor them within the same hall management system.
+
+7. Administrators need a quick overview of hall activities – Checking different records separately can make it difficult to understand the overall management situation.	Admin Dashboard & Reports: Important statistics such as students, rooms, seats, applications and recent applications can be viewed from a single dashboard.
+
+8. Students need timely information about application decisions – Students may not always receive updates immediately after an application decision.	Email Notification: Important application updates, including approval or rejection, can be communicated to students through email.
+9. Students may need quick answers to common hall-related questions: Students often need information about hall rules, application procedures and other services.	AI-Powered Hall Assistant: An AI-powered chatbot, integrated through an n8n-based AI agent, can answer common student questions about hall rules application procedures, seat allocation, and other hall-related information.
+10. Manual complaint categorization can needed additional administrative effort: Administrators may require to read and categorize each complaint in individually.	AI-Based Complaint and Classification: An AI-based classification service can automatically identify the complaint category such as Electrical, Plumbing and Cleanliness based on the complaint description.
+11. Administrators need better insights into hall management activities: Important patterns in applications and complaints may be difficult to identify by checking records manually.	AI-Based Decision Support: The system can analyze hall-related data and provide useful insights such as frequently reported complaints and pending applications to help administrators make better decisions.
+
+2.3 Research Contribution
+
+The main contribution of the proposed University Hall Management System is not a single individual feature. Rather, it is the way different hall-management activities are connected within one system, along with the integration of AI-based features to improve student support and administrative activities.
+The overall process can be represented as:
+Student Information Management
+↓
+Online Hall Application
+↓
+Application Review by Admin
+↓
+Approval / Rejection
+↓
+Application Status Tracking
+↓
+Room & Seat Management
+↓
+Room & Seat Allocation
+↓
+Student Dashboard & Room Details
+↓
+Complaint & Maintenance Management
+↓
+AI-Based Complaint Classification
+↓
+Admin Dashboard & Statistics
+↓
+Recent Applications & Reports
+↓
+AI-Based Decision Support
+↓
+Email Notification
+Along with these management activities, the system also provides an AI-Powered Hall Assistant to help students get quick answers to common hall-related questions.
+This allows student can easily perform key activities related to their accommodation in online
+with assistance from AI. Administrator will be able to manage their application from students, rooms, seats and complaints from a central location. The AI features within will remove the repetitive tasks from administrators, making information eassy to access and improve decision making.
+
+The system is based on the suggestions from the previously mentioned studies and has been
+designed to provide a single solution for the management of university hall and student
+accommodation.
